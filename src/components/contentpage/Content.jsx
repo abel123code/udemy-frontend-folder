@@ -130,12 +130,6 @@ function Content() {
             </button>
             <h2>{courseData ? courseData.basic.title : 'unknown'}</h2>
           </div>
-          <div className='course-progress'>
-            <button className='view-progress-button'>
-              <AiOutlineTrophy className='trophy-icon'/>
-              Your progress 
-            </button>
-          </div>
         </div>
         <div className='video-player-cntr'>
           <VideoPlayer videoId={videoId} />

@@ -13,7 +13,8 @@
 }
 
 .footer-section {
-  width: 20%;
+  width: 25%;
+  padding: 0 1%;
 }
 
 .footer-section ul{
@@ -46,5 +47,6 @@
 @media (max-width: 500px) {
   .footer-section {
     width: 30%;
+    font-size: 12px;
   }
 }

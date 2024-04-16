@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .coursepage_ctnr {
@@ -84,14 +85,12 @@
 }
 
 .thumbnail-sidebar {
-  height: 40%;
   width: 100%;
 }
 
 .thumbnail-sidebar img {
-  height: 100%;
+  height: auto;
   width: 100%;
-  
 }
 
 .add-like {
@@ -104,11 +103,11 @@
 .add-to-cart {
   width: 82%;
   height: 100%;
-  font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   background-color: blueviolet;
   color: white;
   border: none;
+  font-size: 13px;
 }
 
 .like-btn {
@@ -116,7 +115,7 @@
   height: 100%;
   background-color: white;
   border: 1px solid black;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +127,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   background-color: white;
   border: 1px solid black;
@@ -140,10 +139,12 @@
 }
 
 .includes h3 {
+  font-size: 15px;
   padding: 2% 0;
 }
 
 .includes h4 {
+  font-size: 14px;
   padding: 1% 0;
 }
 
@@ -205,13 +206,15 @@
   margin-left: 0; /* Aligns with the container if needed */
 }
 
-
-
 .content-dropdown {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
   padding: 2%;
+}
+
+.includes-phone {
+  display: none;
 }
 
 
@@ -243,6 +246,10 @@
     top: 4%; /* Align to the top of the container */
     right: 8%; /* Align to the right of the container */
     width: 30%;
+  }
+
+  .thumbnail-sidebar {
+    width: 100%;
   }
 }
 
@@ -298,12 +305,13 @@
   .course-sidebar {
     position: static; /* Resets any previous positioning */
     width: 95%; /* Takes full width of the container */
-    margin: 5% auto;
+    margin: 3% auto;
     order: 1; /* Places it below the main content */
     top: auto; /* Resets any previously set top value */
     right: auto; /* Resets any previously set right value */
     height: auto; /* Adjusts the height as needed */
-    box-shadow: none; /* Optional: removes shadow if not needed for mobile */
+    box-shadow: none; 
+    padding: 0 2%;
   }
 
   .sidebar-content {
@@ -313,6 +321,7 @@
   .actions-sidebar {
     width: 100%;
     height: 50%;
+    
   }
 
   .add-like {
@@ -324,6 +333,20 @@
 
   .add-like button {
     height: auto;
+    
+  }
+
+  .includes {
+    display: none;
+  }
+
+  .includes-phone {
+    display: inline;
+    padding: 2%;
+  }
+
+  .buy-now-btn {
+    margin-bottom: 0;
   }
 }
 

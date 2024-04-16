@@ -303,6 +303,12 @@ function Coursepage() {
                 <h2>Course content</h2>
                 <Coursecontent data={course} />
               </div>
+              <div className='includes-phone'>
+                <h3>This course includes: </h3>
+                {Object.entries(course.includes).map(([key, value]) => {
+                  return (<h4 key={key}>{`${value} ${key.replace(/_/g, ' ')}`}</h4>);
+                })}
+              </div>
             </div>
           </div>
           <div class="course-sidebar">

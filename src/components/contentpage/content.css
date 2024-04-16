@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-icon {
+    display: none;
+}
+
+.header-contentPage {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    background-color: black;
+    color: white;
+}
+
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+}
+  
+.logo img {
+    width: 91px;
+    height: 34px;
+}
+
+.course-title {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.course-title h2 {
+    padding-left: 5%;
+}
+
+.course-progress {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-progress-button {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.trophy-icon {
+    font-size: 20px;
+}
+
+.video-player-cntr {
+    width: 100%;
+    height: 60vh;
+}
+
+.video-player {
+    width: 100%;
+    height: 100%;
+}
+
+.video-player-placeholder {
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+.section-cntr {
+    margin: 1% 0;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 15%;
+    }
+
+    .course-title {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    .course-progress {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        width: 15%;
+    }
+
+    .course-title {
+        width: 65%;
+        display: flex;
+        align-items: center;
+    }
+
+    .course-progress {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 15%;
+    }
+
+    .course-title {
+        width: 65%;
+        display: flex;
+        align-items: center;
+    }
+
+    .course-progress {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+
+    .back-icon {
+        display: block;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .course-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .course-progress {
+        display: none;
+    }
+}
+

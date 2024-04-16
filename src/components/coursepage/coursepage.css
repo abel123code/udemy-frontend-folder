@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.coursepage_ctnr {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.coursepage {
+  font-family: Arial, sans-serif;
+  flex: 1;
+  width: 100%;
+}
+
+.course-content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.course-information {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-info {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  background-color: rgb(37, 35, 35);
+}
+
+.basic-info-content {
+  width: 55%;
+  color: white;
+}
+
+.basic-info-content h2{
+  font-size: 17px;
+  margin: 2% 0;
+}
+
+.basic-info-content p{
+  font-size: 13px;
+  margin: 2% 0;
+}
+
+
+.course-sidebar {
+  position: absolute;
+  top: 4%; /* Align to the top of the container */
+  right: 13%; /* Align to the right of the container */
+  width: 25%;
+  background-color: white;
+  box-shadow: -10px 0 15px -5px rgba(0, 0, 0, 0.1);
+  height: 60vh;
+}
+
+.sidebar-content {
+  width: 100%;
+  height: 60%;
+  padding: 0 2%;
+}
+
+.actions-sidebar {
+  width: 100%;
+  height: 30%;
+}
+
+.price-box {
+  margin: 4% 0;
+  font-size: 20px;
+  height: 10%;
+}
+
+.thumbnail-sidebar {
+  height: 40%;
+  width: 100%;
+}
+
+.thumbnail-sidebar img {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.add-like {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-to-cart {
+  width: 82%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+
+.like-btn {
+  width: 15%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-now-btn {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid black;
+  margin: 2.5% 0;
+}
+
+.includes {
+  height: 60%;
+}
+
+.includes h3 {
+  padding: 2% 0;
+}
+
+.includes h4 {
+  padding: 1% 0;
+}
+
+
+.detailed-info {
+  width: 50%;
+  margin-left: 10%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.learning-obj {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  border: 1px solid lightgray;
+  margin-top: 5%;
+}
+
+.learning-obj h2 {
+  padding: 2%;
+  height: 20%;
+}
+
+.categ-skills {
+  padding: 2%;
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.categories, .skills {
+  width: 50%;
+}
+
+.obj-item {
+  padding: 1% 0;
+}
+
+.requirements {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.requirements h2{
+  margin: 1% 0;
+}
+
+.liked {
+  color: red; 
+}
+
+.requirements ul {
+  list-style-position: inside; /* Moves the bullets inside the padding area */
+  padding-left: 0; /* Removes default padding */
+  margin-left: 0; /* Aligns with the container if needed */
+}
+
+
+
+.content-dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+
+@media (min-width:1450px) {
+  .basic-info-content {
+    width: 45%;
+    color: white;
+  }
+
+  .basic-info {
+    padding-left: 15%;
+  }
+  
+
+  .detailed-info {
+    width: 45%;
+    margin-left: 15%;
+  }
+
+  .course-sidebar {
+    top: 4%; /* Align to the top of the container */
+    right: 19%; /* Align to the right of the container */
+    width: 20%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .course-sidebar {
+    top: 4%; /* Align to the top of the container */
+    right: 8%; /* Align to the right of the container */
+    width: 30%;
+  }
+}
+
+@media (max-width: 770px) {
+  .basic-info-content {
+    width: 65%;
+    color: white;
+  }
+
+  .basic-info {
+    padding-left: 2%;
+  }
+  
+
+  .detailed-info {
+    width: 60%;
+    margin-left: 2%;
+  }
+  
+  .course-sidebar {
+    top: 4%; /* Align to the top of the container */
+    right: 1%; /* Align to the right of the container */
+    width: 35%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .course-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .course-information {
+    width: 100%;
+    /* adjust the rest of your styles as needed */
+  }
+
+  .basic-info-content {
+    width: 100%;
+    color: white;
+  }
+
+  .detailed-info {
+    width: 95%;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+
+  .course-sidebar {
+    position: static; /* Resets any previous positioning */
+    width: 95%; /* Takes full width of the container */
+    margin: 5% auto;
+    order: 1; /* Places it below the main content */
+    top: auto; /* Resets any previously set top value */
+    right: auto; /* Resets any previously set right value */
+    height: auto; /* Adjusts the height as needed */
+    box-shadow: none; /* Optional: removes shadow if not needed for mobile */
+  }
+
+  .sidebar-content {
+    padding: 0; /* Adjust the padding as necessary */
+  }
+
+  .actions-sidebar {
+    width: 100%;
+    height: 50%;
+  }
+
+  .add-like {
+    display: flex;
+    align-items: stretch; /* This will make the children stretch to fill the container */
+    justify-content: space-between;
+    height: 100%; /* Make sure the parent's height is defined */
+  }
+
+  .add-like button {
+    height: auto;
+  }
+}
+
+
+

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addToCart-viewerPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.addToCart-viewer-ctnr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.total-cost {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 3% auto;
+}
+
+.total-cost h2 {
+    color: gray;
+    font-size: 20px;
+}
+
+.total-cost h1 {    
+    color: black;
+    font-weight: 900;
+}
+
+.addToCart-courses-ctnr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.course-count {
+    width: 90%;
+    border-bottom: 1px solid lightgray;
+}
+
+.addToCart-course {
+    width: 90%;
+    display: flex;
+    margin: 2% 0;
+}
+
+.addToCart-course-pic {
+    width: 20%;
+}
+
+.addToCart-course-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.addToCart-course-details {
+    width: 70%;
+    font-size: 13px;
+}
+
+.addToCart-course-price {
+    width: 10%;
+    font-size: 13px;
+}
+
+
+.addToCart-empty {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addToCart-empty div {
+    margin: 3% 0;
+}
+
+.addToCart-empty button {
+    padding: 3% 5%;
+    font: 15px;
+    font-weight: 700;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+
+
+
+

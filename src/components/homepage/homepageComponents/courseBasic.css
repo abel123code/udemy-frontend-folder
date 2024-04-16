@@ -1,0 +1,54 @@
+.course-basic-detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0;
+  max-height: 250px;
+}
+
+.thumbnail-display {
+  width: 30%
+}
+
+.thumbnail-display img {
+  width: 100%;
+  max-height: 250px;
+}
+
+.info-display {
+  width: 68%;
+  display: flex;
+}
+
+.details {
+  width: 95%;
+}
+
+.course-description {
+  font-size: 13px;
+  margin: 1% 0;
+}
+
+.course-creator {
+  font-size: 13px;
+  color: gray;
+  margin: 1% 0;
+}
+
+.price {
+  font-weight: 700;
+}
+
+
+@media (max-width: 500px) {
+  .course-basic-detail {
+    margin: 5% 0;
+  }
+
+  .thumbnail-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

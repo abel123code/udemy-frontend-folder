@@ -1,0 +1,39 @@
+.acc-section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.acc-section-header {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: lightgray;
+    border-bottom: 1px solid gray;
+    padding: 2% 1%;
+}
+
+.lectures-list {
+    font-size: 20px;
+    padding: 2% 1%;
+}
+
+@media (max-width: 1024px) {
+    .acc-section {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .acc-section {
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    .acc-section {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

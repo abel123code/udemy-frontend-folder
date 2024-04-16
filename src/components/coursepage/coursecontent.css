@@ -1,0 +1,49 @@
+.dropdowns {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    width: 100%;
+}
+
+.section button {
+    width: 100%;
+    display: flex;
+    padding: 1% 0;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: rgb(243, 236, 236);
+    border: 1px solid lightgray;
+}
+
+.lecture-list {
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgray;
+    list-style-type: none;
+}
+
+.lecture-item {
+    margin: 2% 1%;
+    display: flex;
+    align-items: center;
+}
+
+.lecture-icon {
+    width: 5%;
+}
+
+.lecture-title {
+    width: 80%;
+}
+
+.lecture-duration {
+    width: 15%;
+}
+
+@media (max-width: 1060px) {
+    .lecture-item {
+        font-size: 13px;
+    }
+}

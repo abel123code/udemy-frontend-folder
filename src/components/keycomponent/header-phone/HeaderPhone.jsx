@@ -129,18 +129,14 @@ function HeaderPhone() {
                                 {isLoggedIn ? <HeaderAuthenticated handleSignOut={handleSignOut}/>: <HeaderUnauthenticated />}
                                 <ul>
                                     <p>Most popular</p>
-                                    <a href="/">Development</a>
-                                    <a href="/">Business</a>
-                                    <a href="/">Finance & Accounting</a>
-                                    <a href="/">IT & Software</a>
-                                    <a href="/">Office Productivity</a>
-                                    <a href="/">Personal Development</a>
-                                    <a href="/">Design</a>
-                                    <a href="/">Marketing</a>
-                                    <a href="/">Lifestyle</a>
-                                    <a href="/">Health & Fitness</a>
-                                    <a href="/">Music</a>
-                                    <a href="/">Teaching & academic</a>
+                                    <a href="/homepage/Web%20Development">Web Development</a>
+                                    <a href="/homepage/Data%20Science">Data Science</a>
+                                    <a href="/homepage/Business">Business</a>
+                                    <a href="/homepage/Information%20Technology">Information Technology</a>
+                                    <a href="/homepage/Health">Health</a>
+                                    <a href="/homepage/Personal%20Development">Personal Development</a>
+                                    <a href="/homepage/Arts%20and%20Humanities">Arts and Humanities</a>
+                                    <a href="/homepage/Other">Other</a>
                                 </ul>
                                 <ul className='more-from-udemy'>
                                     <p>More from udemy</p>

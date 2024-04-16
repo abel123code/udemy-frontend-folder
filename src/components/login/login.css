@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 .login_ctnr {
   display: flex;
   flex-direction: column;
@@ -45,6 +43,7 @@
   align-items: center;
   padding: 2%;
   margin: 1% 0;
+  color: black;
   background-color: white;
   border: 1px solid black;
   font-weight: bold;

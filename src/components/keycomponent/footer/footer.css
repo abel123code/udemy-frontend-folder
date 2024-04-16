@@ -14,7 +14,6 @@
 
 .footer-section {
   width: 20%;
-  
 }
 
 .footer-section ul{
@@ -34,4 +33,18 @@
 .footer-logo img {
   width: 91px;
   height: 31px;
+}
+
+
+@media (max-width: 800px) {
+  .footer-section {
+    width: 25%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .footer-section {
+    width: 30%;
+  }
 }

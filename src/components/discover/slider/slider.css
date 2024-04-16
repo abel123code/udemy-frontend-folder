@@ -37,7 +37,7 @@
 
 .carousel-text-content {
   width: 50%;
-  height: 60%;
+  height: 70%;
   padding: 3% 2%;
   background-color: white;
   margin-left: 1%;
@@ -51,7 +51,7 @@
 }
 
 .carousel-text-content button {
-  width: 30%;
+  width: 40%;
   height: 30%;
   background-color: black;
   color: aliceblue;
@@ -100,8 +100,12 @@
   }
 
   .carousel-text-content {
-    height: 80%;
-    width: 65%;
+    height: 85%;
+    width: 75%;
+  }
+
+  .carousel-text-content button {
+    height: 20%;
   }
 
   .carousel-text-content h2 {
@@ -128,15 +132,22 @@
 
   .carousel-text-content {
     height: 90%;
-    width: 80%;
+    width: 80%; 
+    font-size: 16px;
   }
 
   .carousel-text-content h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .carousel-text-content button {
-    width: 50%;
-    height: 30%;
+    width: 70%;
+    height: 15%;
   }
+}
+
+@media (max-width: 400px) {
+
+
+
 }

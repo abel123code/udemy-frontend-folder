@@ -7,7 +7,7 @@
 }
 
 .thumbnail-display {
-  width: 30%
+  width: 30%;
 }
 
 .thumbnail-display img {
@@ -37,6 +37,7 @@
 
 .price {
   font-weight: 700;
+  padding: 0 2%;
 }
 
 

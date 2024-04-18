@@ -9,6 +9,7 @@ import useWindowSize from '../../services/useWindowSize';
 import HeaderPhone from '../keycomponent/header-phone/HeaderPhone'
 import UdemyBiz from './UdemyBiz'
 
+
 function Discover() {
   let navigate = useNavigate()
   const isMobile = useWindowSize()

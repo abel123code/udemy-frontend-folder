@@ -21,7 +21,7 @@
 .udemy-business-ctnr {
   width: 90%;
   margin: 3% auto;
-  height: 20vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,8 +29,13 @@
   border-bottom: 1px solid lightgray;
 }
 
-.udemy-business-ctnr img {
-  width: 40%;
+.udemy-logo {
+  width: 20%;
+  margin-top: 3%;
+}
+
+.udemy-background {
+  width: 100%;
 }
 
 .udemy-business-ctnr p {

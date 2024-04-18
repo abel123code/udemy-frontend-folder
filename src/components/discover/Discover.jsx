@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import useWindowSize from '../../services/useWindowSize';
 import HeaderPhone from '../keycomponent/header-phone/HeaderPhone'
-
+import UdemyBiz from './UdemyBiz'
 
 function Discover() {
   let navigate = useNavigate()
@@ -46,7 +46,7 @@ function Discover() {
     <div className='discover_ctnr'>
       <div className='discover_page'>
         {isMobile ? <HeaderPhone /> : <Header />}
-        <SliderComponent />
+        {isMobile ? <UdemyBiz /> : <SliderComponent /> }
       </div>
       <Footer />
     </div>
